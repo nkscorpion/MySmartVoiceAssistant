@@ -1,0 +1,23 @@
+ #ABNF 1.0 UTF-8;
+language zh-CN; 
+mode voice;
+root $main;
+
+$main = $ledOpen|$ledClose|$motorOpen|$motorClose|$wsd|$infrared;
+
+$ledOpen =  [打] 开 [$color]灯;
+$color= 黄色|黄颜色|粉色|粉红色|紫色;
+
+$ledClose=关灯;
+
+$motorOpen=[把] [$door] [打]开[$door];
+$door= 门 | 大门;
+
+$motorClose=[把] [$cdoor] 关[$cdoor];
+$cdoor= 门 | 大门;
+
+$wsd=[$check] 温湿度;
+$check=查询|显示;
+
+$infrared= $mc 关好了吗;
+$mc= 门 | 大门|门窗|窗户|窗;

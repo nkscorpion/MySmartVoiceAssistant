@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="ledOpen">
+        <item>开灯</item>
+        <item>打开灯 </item>
+        <item>开黄色灯</item>
+        <item>打开黄色灯</item>
+        <item>开黄颜色灯</item>
+        <item>打开黄颜色灯</item>
+        <item>开粉色灯</item>
+        <item>打开粉色灯</item>
+        <item>开粉红色灯</item>
+        <item>打开粉红色灯</item>
+        <item>开紫色灯</item>
+        <item>打开紫色灯</item>
+    </string-array>
+
+    <string-array name="motorOpen">
+        <item>门开</item>
+        <item>开门</item>
+        <item>大门开</item>
+        <item>门打开</item>
+        <item>大门打开</item>
+        <item>把门打开</item>
+        <item>把大门打开</item>
+        <item>把门开</item>
+        <item>把大门开</item>
+    </string-array>
+
+    <string-array name="motorClose">
+        <item>门关</item>
+        <item>大门关</item>
+        <item>门打关</item>
+        <item>大门打关</item>
+        <item>把门打关</item>
+        <item>把大门打关</item>
+        <item>把门关</item>
+        <item>把大门关</item>
+    </string-array>
+
+
+    <string-array name="wsd">
+        <item>温湿度</item>
+        <item>查询温湿度</item>
+        <item>显示温湿度</item>
+    </string-array>
+
+    <string-array name="infrared">
+        <item>关好了吗</item>
+        <item>门关好了吗</item>
+        <item>大门关好了吗</item>
+        <item>门窗关好了吗</item>
+        <item>窗户关好了吗</item>
+        <item>窗关好了吗</item>
+    </string-array>
+
+</resources>
